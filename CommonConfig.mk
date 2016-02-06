@@ -68,9 +68,6 @@ ifeq ($(HOST_OS),linux)
     WITH_DEXPREOPT ?= true
 endif
 
-BUILD_KERNEL := true
--include vendor/sony/kernel/KernelConfig.mk
-
 # Include build helpers for QCOM proprietary
 -include vendor/qcom/proprietary/common/build/proprietary-build.mk
 
