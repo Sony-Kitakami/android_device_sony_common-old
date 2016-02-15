@@ -26,6 +26,9 @@
 /system/vendor/bin/touch_fusion               u:object_r:touchfusion_exec:s0
 /system/vendor/bin/wcnss_service              u:object_r:wcnss_service_exec:s0
 
+# Firmware
+/firmware(/.*)?                    u:object_r:firmware_file:s0
+
 # acdb delta files
 /data/audio/acdbdata/delta(/.*)?              u:object_r:system_data_file:s0
 
