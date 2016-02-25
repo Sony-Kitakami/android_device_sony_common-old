@@ -28,6 +28,7 @@
 /system/vendor/bin/pm-service                 u:object_r:per_mgr_exec:s0
 /system/vendor/bin/pm-proxy                   u:object_r:per_mgr_exec:s0
 /system/vendor/bin/qseecomd                   u:object_r:tee_exec:s0
+/system/vendor/bin/msm_irqbalance             u:object_r:msm_irqbalanced_exec:s0
 
 # Firmware
 /firmware(/.*)?                    u:object_r:firmware_file:s0
