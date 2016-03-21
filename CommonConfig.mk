@@ -41,7 +41,7 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 # Audio
-BOARD_USES_ALSA_AUDIO := true
+# BOARD_USES_ALSA_AUDIO := true : Exclude as we are using the proprietary audio HAL
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 
 #Camera
