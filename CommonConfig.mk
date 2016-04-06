@@ -55,5 +55,8 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
 
+BUILD_KERNEL := true
+-include device/sony/common-kernel/KernelConfig.mk
+
 # Include build helpers for QCOM proprietary
 -include vendor/qcom/proprietary/common/build/proprietary-build.mk
