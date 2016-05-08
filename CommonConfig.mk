@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+#PRODUCT_VENDOR_KERNEL_HEADERS := device/sony/common/kernel-headers
+
 TARGET_NO_RADIOIMAGE := true
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RECOVERY := false
@@ -58,7 +60,7 @@ TARGET_SYSTEM_PROP := device/sony/common/system.prop
 EXTENDED_FONT_FOOTPRINT := true
 
 BUILD_KERNEL := true
--include device/sony/common-kernel/KernelConfig.mk
+#-include device/sony/common-kernel/KernelConfig.mk
 
 # Include build helpers for QCOM proprietary
 -include vendor/qcom/proprietary/common/build/proprietary-build.mk
