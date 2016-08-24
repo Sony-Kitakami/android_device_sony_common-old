@@ -57,12 +57,6 @@ PRODUCT_COPY_FILES += \
     device/sony/common/rootdir/system/etc/sensors/sensors_settings:system/etc/sensors/sensors_settings
 #   device/sony/common/rootdir/system/etc/sec_config:system/etc/sec_config <!-- NOT NEEDED ON CM -->
 
-# QMI
-PRODUCT_COPY_FILES += \
-    device/sony/common/rootdir/system/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    device/sony/common/rootdir/system/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    device/sony/common/rootdir/system/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml
-
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
